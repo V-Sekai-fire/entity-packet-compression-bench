@@ -74,3 +74,12 @@ Control: `makima_cubic` at lag 30 on R16 overflowed [1024, 1024, 1024] packets (
 - No packet loss, no CPU cost, no per-client state cost, no constant payload contents beyond a deterministic test pattern.
 - `loop.txt` ranges in the upsampled Kimodo clips run past the clip length (`walk` 127 to 247 of 242 frames, `run_circle_left` 200 to 273 of 148 frames). The loader keeps the
   old slicing for `walk` and uses the whole clip for `run_circle_left`; the clip rows are therefore a loader choice and not a statement about those loops.
+
+## Far origins (operator, 2026-11-07: the zone exceeds +-2.1 km, hair to solar system)
+
+- `B_i32_local` is an invalid rung. Int32 um spans +-2147 m, and `bench_far.py` shows its pack refusing positions past that by name (`struct.error`), not wrapping.
+- Int64 um spans +-9.2e12 m, about +-61 AU: Neptune (30 AU) fits. A double cannot hold um there: its spacing at 30 AU is about 1 mm.
+- `bench_far.py` shifts the `mm.elf` motion to an origin of 4.4e18 um (about 29 AU) and to 1e9 um (1 km) below the Int64 maximum, at 60 Hz and 20 Hz, lag 6 and 30 ticks, 8 seeds each.
+  Result (`results_far.json`): no errors, no predicted position outside Int64, `makima_vel_int+R24` and `hold+R24` passed 8 of 8 with 0% keyframes in all 8 levels.
+  `makima_vel_int+R16` matched the near-origin result (passes 8 of 8 only at 60 Hz, lag 6 ticks; 0.35% keyframes). The keyframe path round-tripped bit-exact with large high bytes.
+- Not covered: speeds above about 5 m/s. `vel` is Int16 with `V_MAX_UM_PER_TICK` = 500000 um per tick, so a body faster than 10 m/s (at 20 Hz) saturates it, and a 24 bit residual slot spans only +-8.4 m.

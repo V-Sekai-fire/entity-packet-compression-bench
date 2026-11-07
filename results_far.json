@@ -1,0 +1,338 @@
+[
+ {
+  "level": "mm_elf_60Hz_origin_29AU|6",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 55.184
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 2,
+   "keyframe_pct": 1.14
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.346
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_60Hz_origin_29AU|30",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 65.939
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 60.482
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 51.633
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_60Hz_edge_int64|6",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 55.184
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 2,
+   "keyframe_pct": 1.14
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.35
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_60Hz_edge_int64|30",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 65.939
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 60.482
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 51.64
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_20Hz_origin_29AU|6",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 60.993
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 39.524
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 19.396
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_20Hz_origin_29AU|30",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 65.71
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 70.91
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 76.969
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_20Hz_edge_int64|6",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 60.993
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 39.524
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 19.422
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ },
+ {
+  "level": "mm_elf_20Hz_edge_int64|30",
+  "errors": [],
+  "runs_ok": 8,
+  "pred_out_of_int64": 0,
+  "hold+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 65.71
+  },
+  "hold+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "hold+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 70.91
+  },
+  "linear_pkt_vel+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "linear_pkt_vel+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R16": {
+   "success_of_8": 0,
+   "keyframe_pct": 77.373
+  },
+  "makima_vel_int+R24": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  },
+  "makima_vel_int+R32": {
+   "success_of_8": 8,
+   "keyframe_pct": 0.0
+  }
+ }
+]

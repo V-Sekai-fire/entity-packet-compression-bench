@@ -180,9 +180,12 @@ def run_job(args):
     out = dict(prob=prob, jitter_um=jit, lag_ticks=lag, seed=seed, players={}, fixed_clean={})
     for name in ("A_current", "A_pad", "B_i32_local"):
         ok = True
-        for t in range(R.EVAL_FROM, R.T, 17):
-            for e in run[t]:
-                buf, _ = encode(name, e, t, lag); ok &= len(buf) == 100 and same(e, t, decode(name, buf))
+        try:
+            for t in range(R.EVAL_FROM, R.T, 17):
+                for e in run[t]:
+                    buf, _ = encode(name, e, t, lag); ok &= len(buf) == 100 and same(e, t, decode(name, buf))
+        except struct.error:
+            ok = False       # the layout cannot hold this position (Int32 um past +-2147 m): refused by name, not wrapped
         out["fixed_clean"][name] = ok
     for pn in PREDS:
         fn = R.PRED[pn]; esc = {w: 0 for w in WIDTHS}; pk = 0; kmax = {}; mov = []; clean = {w: True for w in WIDTHS}
