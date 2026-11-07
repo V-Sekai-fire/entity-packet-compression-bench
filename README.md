@@ -27,7 +27,8 @@ Every variant is decoded back and compared with the generated truth (`verify()`)
 - Zstd frames carry no content size, checksum or dictionary id.
 - Batch means one frame per tick holding all 256 records. Packet means one frame per record, sampled every 5th tick.
 - Trained dictionaries: 64 KB for batch, 8 KB for packet.
-- Delta baseline: the snapshot 6 ticks earlier (about 100 ms). The lag sweep is 1, 3, 6, 12 and 30.
+- Delta baseline: the snapshot 6 ticks earlier. The bench assumes 60 Hz (6 ticks = 100 ms), but `V_MAX_UM_PER_TICK` = 500000 µm per tick is 10 m/s at 20 Hz, where 6 ticks = 300 ms. The tick rate is unconfirmed. The lag sweep is 1, 3, 6, 12 and 30 ticks.
+- See `ROUNDTABLE.md` for the predictor x container roundtable over motion-matching clip root motion (`bench_predict.py`, `bench_roundtable.py`).
 
 ## Variants
 
