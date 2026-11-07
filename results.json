@@ -1,0 +1,2990 @@
+{
+ "conditions": {
+  "machine": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "zstandard": "0.25.0",
+  "zstd": "1.5.7",
+  "level": 3,
+  "N": 256,
+  "hz": 60,
+  "train_ticks": 240,
+  "test_ticks": 260,
+  "pkt_stride": 5,
+  "dict_pkt": 8192,
+  "dict_batch": 65536,
+  "mix_static_walker_fast": [
+   0.7,
+   0.2,
+   0.1
+  ],
+  "seed": 20261107,
+  "frame_flags": {
+   "write_content_size": false,
+   "write_checksum": false,
+   "write_dict_id": false
+  },
+  "wall_s": 6.1
+ },
+ "rows": [
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 19.76
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.69
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.06
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 39.21
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.7
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 21.25
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 50.82
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.34
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 19.22
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 18.65
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.02
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.23
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.55
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 23.35
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 54.76
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 43.43
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.15
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.63
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 37.57
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 29.81
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.13
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 10.95
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.9
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.31
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.25
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.62
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 10.61
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.26
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 35.79
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 29.92
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 6.13
+  },
+  {
+   "jitter_um": 0,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 25.28
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 62.8
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 63.09
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 91.73
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 87.82
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 63.79
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 64.34
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 90.92
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 85.13
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 62.27
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 63.99
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 88.64
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 86.06
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 66.54
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 69.21
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 94.72
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 88.63
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.62
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.51
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 78.24
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 77.02
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.17
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.34
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.51
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 77.37
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 75.74
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.63
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.1
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.0
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 76.83
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 76.59
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 6.23
+  },
+  {
+   "jitter_um": 0,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 25.47
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.17
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.15
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.72
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 25.65
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.46
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.53
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.35
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.33
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.44
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.14
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.52
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.76
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.81
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.05
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.54
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.36
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.88
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.37
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 64.25
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 63.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 92.9
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 88.89
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 65.11
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 65.52
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 91.93
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 87.16
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 62.62
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 66.05
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 88.63
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 85.89
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 68.63
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 69.98
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 96.49
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 90.57
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 54.66
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 56.28
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 78.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 77.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.36
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.6
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.58
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 77.56
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 76.59
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.82
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.29
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.1
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 77.02
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 76.91
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.9
+  },
+  {
+   "jitter_um": 100,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.58
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.05
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.9
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.54
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.67
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.12
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.67
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.7
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.18
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.65
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.03
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.9
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 26.23
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.9
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.47
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.91
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.65
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.04
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.38
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.42
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.47
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.28
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.62
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.97
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.91
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.14
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.81
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.11
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.45
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.96
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "zero",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.6
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 64.11
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 64.1
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 93.17
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 89.38
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 65.27
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 65.86
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 92.14
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 87.68
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 62.69
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 66.03
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 88.64
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 85.99
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 69.26
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 70.97
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 96.49
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 91.11
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 54.67
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 56.31
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 78.87
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 77.25
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.45
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.61
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.64
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 77.65
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 75.99
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.93
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 53.32
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 55.28
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 77.13
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 77.12
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.97
+  },
+  {
+   "jitter_um": 1000,
+   "payload": "const",
+   "lag": 6,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.83
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.17
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.15
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.72
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 25.65
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.46
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.37
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.91
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.05
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.26
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.35
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.96
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.45
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.62
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.57
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 10.75
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.22
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 35.75
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 29.93
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 1,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 26.56
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.17
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.15
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.72
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 25.65
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.46
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.42
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.97
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.28
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.32
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.4
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.51
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.8
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 79.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 10.96
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.54
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 35.92
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.75
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 3,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.1
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.17
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.15
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.72
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 25.65
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.46
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.57
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.05
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.42
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.49
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.59
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.26
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.71
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.85
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 80.03
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.74
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.22
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.51
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 7.99
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 12,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.52
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 21.17
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 20.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 52.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 40.15
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_origin0",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_origin0",
+   "mode": "batch_nodict",
+   "bytes_per_update": 23.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_origin0",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 22.43
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 51.73
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "A_i64_origin0",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.72
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "B_i32_local",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "B_i32_local",
+   "mode": "batch_nodict",
+   "bytes_per_update": 20.08
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "B_i32_local",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 19.86
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "B_i32_local",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 48.04
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "B_i32_local",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 41.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "C_f64_m_far",
+   "mode": "raw",
+   "bytes_per_update": 100.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "C_f64_m_far",
+   "mode": "batch_nodict",
+   "bytes_per_update": 25.65
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "C_f64_m_far",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 25.2
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 56.46
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "C_f64_m_far",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 45.78
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "D_i32_delta_slot",
+   "mode": "raw",
+   "bytes_per_update": 88.0
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.63
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "D_i32_delta_slot",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.12
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 38.07
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "D_i32_delta_slot",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.48
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "E_varint_delta",
+   "mode": "raw",
+   "bytes_per_update": 80.54
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "E_varint_delta",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.64
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "E_varint_delta",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 12.24
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "E_varint_delta",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.77
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "E_varint_delta",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 31.01
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "F_varint_deadreckon",
+   "mode": "raw",
+   "bytes_per_update": 80.22
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_nodict",
+   "bytes_per_update": 11.37
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "F_varint_deadreckon",
+   "mode": "batch_traineddict64k",
+   "bytes_per_update": 11.9
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_nodict",
+   "bytes_per_update": 36.41
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "F_varint_deadreckon",
+   "mode": "pkt_traineddict8k",
+   "bytes_per_update": 30.58
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "batch_prefix_prev_snapshot",
+   "bytes_per_update": 8.13
+  },
+  {
+   "jitter_um": 100,
+   "payload": "zero",
+   "lag": 30,
+   "variant": "G_i64_far_prefix_prev_ack",
+   "mode": "pkt_prefix_prev_packet",
+   "bytes_per_update": 27.71
+  }
+ ]
+}
