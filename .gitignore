@@ -2,3 +2,4 @@
 __pycache__/
 roundtable.log
 mm_data/*.bin
+libintkernel.dylib
