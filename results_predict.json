@@ -1,0 +1,1010 @@
+[
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.06,
+  "zstd_bytes_per_update": 11.04,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 9964.9,
+   "2": 70490.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 9.36,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2.5,
+   "2": 22.9
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 79.48,
+  "zstd_bytes_per_update": 10.49,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 237.8,
+   "2": 481.6
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 79.51,
+  "zstd_bytes_per_update": 10.5,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 338.1,
+   "2": 664.4
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 79.49,
+  "zstd_bytes_per_update": 10.49,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 266.4,
+   "2": 522.2
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.72,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.14,
+  "zstd_bytes_per_update": 11.07,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 59752.8,
+   "2": 422799.3
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 79.61,
+  "zstd_bytes_per_update": 10.66,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1758.0,
+   "2": 3448.2
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 79.65,
+  "zstd_bytes_per_update": 10.73,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2262.8,
+   "2": 4676.6
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 79.81,
+  "zstd_bytes_per_update": 10.95,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 7708.0,
+   "2": 11896.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 79.66,
+  "zstd_bytes_per_update": 10.75,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2375.4,
+   "2": 4845.4
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.72,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.3,
+  "zstd_bytes_per_update": 11.26,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 298010.1,
+   "2": 2112519.4
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 80.03,
+  "zstd_bytes_per_update": 11.08,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 21711.6,
+   "2": 46089.2
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 80.04,
+  "zstd_bytes_per_update": 11.09,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 23179.0,
+   "2": 44295.3
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 80.22,
+  "zstd_bytes_per_update": 11.25,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 554320.9,
+   "2": 422934.5
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 80.04,
+  "zstd_bytes_per_update": 11.08,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 23481.2,
+   "2": 44924.9
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.72,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.24,
+  "zstd_bytes_per_update": 11.38,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 9847.3,
+   "2": 70622.4
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 79.57,
+  "zstd_bytes_per_update": 10.8,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 113.7,
+   "2": 132.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 79.7,
+  "zstd_bytes_per_update": 10.96,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 289.9,
+   "2": 537.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 79.75,
+  "zstd_bytes_per_update": 11.0,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 479.8,
+   "2": 778.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 79.77,
+  "zstd_bytes_per_update": 10.99,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 411.3,
+   "2": 649.4
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.69,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.33,
+  "zstd_bytes_per_update": 11.52,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 58878.9,
+   "2": 423269.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 79.8,
+  "zstd_bytes_per_update": 11.1,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1774.5,
+   "2": 3627.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 79.84,
+  "zstd_bytes_per_update": 11.14,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2273.1,
+   "2": 4948.1
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 80.31,
+  "zstd_bytes_per_update": 11.55,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 14777.3,
+   "2": 18125.9
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 79.95,
+  "zstd_bytes_per_update": 11.24,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2910.8,
+   "2": 5463.6
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.69,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "hold",
+  "raw_bytes_per_update": 80.49,
+  "zstd_bytes_per_update": 11.69,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 293978.5,
+   "2": 2111498.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 80.21,
+  "zstd_bytes_per_update": 11.42,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 21753.4,
+   "2": 48111.1
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 80.22,
+  "zstd_bytes_per_update": 11.43,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 22852.9,
+   "2": 46089.8
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 80.99,
+  "zstd_bytes_per_update": 12.22,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1337500.5,
+   "2": 1146055.2
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 80.39,
+  "zstd_bytes_per_update": 11.6,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 25338.3,
+   "2": 48721.7
+  }
+ },
+ {
+  "scenario": "original_mix_70static_20walk_10fast",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 8.69,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "hold",
+  "raw_bytes_per_update": 81.96,
+  "zstd_bytes_per_update": 18.32,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 9850.2,
+   "2": 68425.4,
+   "3": 35377.0,
+   "4": 4877.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 14.32,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2.5,
+   "2": 32.8,
+   "3": 2.5,
+   "4": 1.1
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 80.3,
+  "zstd_bytes_per_update": 16.6,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 234.6,
+   "2": 498.9,
+   "3": 1768.7,
+   "4": 162.2
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 80.26,
+  "zstd_bytes_per_update": 16.57,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 334.5,
+   "2": 668.5,
+   "3": 576.3,
+   "4": 250.4
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 80.31,
+  "zstd_bytes_per_update": 16.53,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 263.3,
+   "2": 527.0,
+   "3": 890.0,
+   "4": 215.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 1,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.23,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "hold",
+  "raw_bytes_per_update": 82.15,
+  "zstd_bytes_per_update": 18.32,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 59075.8,
+   "2": 410182.8,
+   "3": 211492.2,
+   "4": 29250.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 81.22,
+  "zstd_bytes_per_update": 17.93,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1731.4,
+   "2": 3628.7,
+   "3": 26478.8,
+   "4": 2423.8
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 81.29,
+  "zstd_bytes_per_update": 18.07,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2234.4,
+   "2": 5066.6,
+   "3": 37039.4,
+   "4": 3412.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 81.36,
+  "zstd_bytes_per_update": 18.22,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 7951.7,
+   "2": 12852.1,
+   "3": 52470.1,
+   "4": 18968.5
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 81.31,
+  "zstd_bytes_per_update": 18.02,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2343.4,
+   "2": 5154.5,
+   "3": 31809.3,
+   "4": 3739.3
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 6,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.23,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "hold",
+  "raw_bytes_per_update": 83.01,
+  "zstd_bytes_per_update": 20.03,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 294755.3,
+   "2": 2043299.7,
+   "3": 964152.4,
+   "4": 147197.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 82.51,
+  "zstd_bytes_per_update": 19.58,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 21201.4,
+   "2": 53719.9,
+   "3": 723970.8,
+   "4": 71342.2
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 82.54,
+  "zstd_bytes_per_update": 19.63,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 22406.4,
+   "2": 60735.7,
+   "3": 770313.1,
+   "4": 76753.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 82.79,
+  "zstd_bytes_per_update": 19.95,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 580998.8,
+   "2": 571141.3,
+   "3": 3849771.2,
+   "4": 241145.7
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 82.49,
+  "zstd_bytes_per_update": 19.57,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 22705.2,
+   "2": 60483.6,
+   "3": 747562.9,
+   "4": 78362.7
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 0,
+  "lag_ticks": 30,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.23,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "hold",
+  "raw_bytes_per_update": 82.62,
+  "zstd_bytes_per_update": 20.23,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 9864.0,
+   "2": 68555.2,
+   "3": 35414.5,
+   "4": 4954.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 80.7,
+  "zstd_bytes_per_update": 18.19,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 112.4,
+   "2": 143.2,
+   "3": 112.8,
+   "4": 113.1
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 81.11,
+  "zstd_bytes_per_update": 18.78,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 291.5,
+   "2": 560.3,
+   "3": 1806.9,
+   "4": 272.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 81.23,
+  "zstd_bytes_per_update": 18.73,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 476.2,
+   "2": 807.6,
+   "3": 715.7,
+   "4": 463.4
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 81.35,
+  "zstd_bytes_per_update": 18.74,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 409.4,
+   "2": 672.3,
+   "3": 978.8,
+   "4": 456.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 1,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.24,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "hold",
+  "raw_bytes_per_update": 82.81,
+  "zstd_bytes_per_update": 20.58,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 58971.9,
+   "2": 410632.0,
+   "3": 211529.8,
+   "4": 29322.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 81.99,
+  "zstd_bytes_per_update": 19.81,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1796.0,
+   "2": 3746.3,
+   "3": 26516.7,
+   "4": 2524.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 82.05,
+  "zstd_bytes_per_update": 19.92,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2296.5,
+   "2": 5179.9,
+   "3": 37076.7,
+   "4": 3511.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 83.15,
+  "zstd_bytes_per_update": 21.09,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 14838.6,
+   "2": 20265.5,
+   "3": 58193.1,
+   "4": 30631.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 82.44,
+  "zstd_bytes_per_update": 20.24,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 2923.7,
+   "2": 5745.6,
+   "3": 32157.6,
+   "4": 4759.6
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 6,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.24,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "hold",
+  "raw_bytes_per_update": 83.63,
+  "zstd_bytes_per_update": 21.53,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 294186.7,
+   "2": 2042729.7,
+   "3": 964189.8,
+   "4": 147255.3
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "linear_pkt_vel",
+  "raw_bytes_per_update": 83.12,
+  "zstd_bytes_per_update": 20.99,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 21270.2,
+   "2": 57180.0,
+   "3": 724008.6,
+   "4": 71407.1
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "linear_base_vel",
+  "raw_bytes_per_update": 83.16,
+  "zstd_bytes_per_update": 21.02,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 22282.3,
+   "2": 63999.3,
+   "3": 770350.0,
+   "4": 76819.0
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "makima_cubic",
+  "raw_bytes_per_update": 85.41,
+  "zstd_bytes_per_update": 23.51,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 1350328.8,
+   "2": 1377849.7,
+   "3": 4521959.1,
+   "4": 1595933.9
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "makima_tangent",
+  "raw_bytes_per_update": 83.72,
+  "zstd_bytes_per_update": 21.76,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 24834.7,
+   "2": 65637.1,
+   "3": 749200.8,
+   "4": 81805.1
+  }
+ },
+ {
+  "scenario": "mover_heavy_10static_20walk_10fast_40arc_20stopstart",
+  "jitter_um": 100,
+  "lag_ticks": 30,
+  "predictor": "oracle",
+  "raw_bytes_per_update": 79.0,
+  "zstd_bytes_per_update": 12.24,
+  "mean_abs_residual_um": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0
+  }
+ }
+]
