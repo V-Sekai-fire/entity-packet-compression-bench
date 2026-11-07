@@ -79,3 +79,7 @@ With a per-entity constant payload every number rises to about 53–64 in batch 
 ## Licence
 
 MIT. See `LICENSE`.
+
+## Fixed 100 byte packet
+
+`FRONTIER.md` maximises payload bytes per packet over the real `mm.elf` controller, clip root motion and synthetic motion (`bench_payload.py`, `mm_record.gd`, `record_mm.sh`, `mm_data/PROVENANCE.md`). The zstd results above are for the earlier, variable-size objective.

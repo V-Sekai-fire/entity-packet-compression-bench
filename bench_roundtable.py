@@ -40,8 +40,9 @@ def clip_deltas(name, hz):
     if os.path.exists(f"{d}/loop.txt"):
         w = open(f"{d}/loop.txt").read().split()
         a, e = int(w[w.index("from") + 1]), int(w[w.index("to") + 1])
-        pts = pts[a:e + 1]
+        if a < len(pts) - 1: pts = pts[a:e + 1]   # v0 behaviour kept (a slice past the end clamps); only a start outside the clip (run_circle_left) falls back to the whole clip
     if hz == 30: pts = pts[::2]      # the 30 fps samples Kimodo made; 60 fps is makima-upsampled from them
+    elif hz == 20: pts = pts[::3]    # every third 60 fps frame: 20 Hz, partly makima-interpolated
     out = [tuple((q - p) * 1e6 for p, q in zip(pts[i], pts[i + 1])) for i in range(len(pts) - 1)]
     _clip_cache[key] = out
     return out
@@ -79,6 +80,7 @@ def gen_clip(seed, nticks, jitter, hz):
         ents.append(dict(idle=idle_only, d=traj(rnd, hz, nticks, idle_only),
                          p=[rnd.uniform(-B.ZONE, B.ZONE) / 2, 0.0, rnd.uniform(-B.ZONE, B.ZONE) / 2],
                          owner=i % 200, gid=1000 + i, head=0.0))
+    jr = random.Random(seed ^ 0x5EED)   # seeded jitter (v0 used the global unseeded random)
     run = []
     for t in range(nticks):
         row = []
@@ -86,7 +88,7 @@ def gen_clip(seed, nticks, jitter, hz):
             d = e["d"][t] if t else (0.0, 0.0, 0.0)
             for ax in range(3): e["p"][ax] += d[ax]
             if math.hypot(d[0], d[2]) > 1e-3: e["head"] = math.atan2(d[0], d[2])
-            pos = tuple(int(round(c + (random.gauss(0, jitter) if (jitter and not e["idle"]) else 0.0))) for c in e["p"])
+            pos = tuple(int(round(c + (jr.gauss(0, jitter) if (jitter and not e["idle"]) else 0.0))) for c in e["p"])
             vel = tuple(max(-32768, min(32767, int(round(c * 32767 / B.V_MAX)))) for c in d)
             yaw = ((int(round((e["head"] % 6.2832) * 65536 / 6.2832)) + 32768) % 65536) - 32768
             row.append(dict(gid=e["gid"], pos=pos, vel=vel, yaw=yaw, owner=e["owner"], klass=2 - e["idle"],
@@ -126,7 +128,7 @@ PRED = {"hold": P.pred_hold, "linear_pkt_vel": P.pred_linear_pkt_vel, "linear_ba
         "makima_vel_int": pred_makima_vel, "oracle": lambda r, t, l, i: r[t][i]["pos"]}
 CONTROLS = {"oracle", "makima_cubic"}
 SIMPLE_PRED = {"-": 0, "hold": 0, "linear_pkt_vel": 1, "linear_base_vel": 1, "makima_tangent": 2, "makima_vel_int": 3}
-SIMPLE_CONT = {"abs_batch": 0, "varint_batch": 1, "slot_batch": 2, "abs_prefix": 3, "varint_prefix": 4,
+SIMPLE_CONT = {"zzslot_batch": 1, "zzslot_prefix": 4, "zzslot_pkt_dict8k": 8, "slot_pkt_dict8k": 8, "abs_batch": 0, "varint_batch": 1, "slot_batch": 2, "abs_prefix": 3, "varint_prefix": 4,
                "slot_prefix": 5, "abs_pkt_dict8k": 6, "varint_pkt_dict8k": 7}
 
 # ---------------------------------------------------------------- containers
@@ -148,8 +150,11 @@ def make_ctx(run, lag):
         if f == "abs": return [B.rec_A(e, B.ORIGIN_FAR) for e in run[t]]
         for e, r in zip(run[t], resid(pred, t)):
             res = r[:3]
-            body = b"".join(B.varint(B.zz(x)) for x in res) if f == "varint" else struct.pack("<qqq", *res)
+            if f == "varint": body = b"".join(B.varint(B.zz(x)) for x in res)
+            elif f == "zzslot": body = struct.pack("<QQQ", *(B.zz(x) for x in res))
+            else: body = struct.pack("<qqq", *res)
             out.append(B.head(e) + body + B.tail(e))
+            if f != "varint": assert len(out[-1]) == 100
         if t % 17 == 0:
             for e, r, rec in zip(run[t], resid(pred, t), out):
                 if f == "varint":
@@ -157,6 +162,8 @@ def make_ctx(run, lag):
                     for _ in range(3):
                         u, o = B.read_varint(rec, o); vals.append(B.unzz(u))
                     assert rec[o:] == B.tail(e)
+                elif f == "zzslot":
+                    vals = [B.unzz(u) for u in struct.unpack("<QQQ", rec[4:28])]
                 else:
                     vals = list(struct.unpack("<qqq", rec[4:28]))
                 assert tuple(a + b for a, b in zip(vals, r[3:])) == e["pos"], (pred, cont)

@@ -1,0 +1,2598 @@
+{
+ "payload_bytes": {
+  "A_current": 42,
+  "A_pad": 48,
+  "B_i32_local": 60,
+  "R16": 64,
+  "R24": 61,
+  "R32": 58
+ },
+ "keyframe_payload_bytes": 46,
+ "keyframe_limit_pct": 1.0,
+ "seeds": [
+  20261107,
+  20261118,
+  20261129,
+  20261140,
+  20261151,
+  20261162,
+  20261173,
+  20261184
+ ],
+ "control_makima_cubic_lag30_R16_overflow_packets": [
+  1024,
+  1024,
+  1024
+ ],
+ "wall_s": 52,
+ "levels": [
+  {
+   "level": "synth_original_60Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 16,
+     "tried": [
+      [
+       1,
+       4
+      ],
+      [
+       4,
+       7
+      ],
+      [
+       16,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 30.713,
+     "mean_payload_bytes": 58.47
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.013,
+     "mean_payload_bytes": 64.0
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.012,
+     "mean_payload_bytes": 64.0
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 0,
+     "1": 140385,
+     "2": 1000406
+    },
+    "linear_pkt_vel": {
+     "0": 0,
+     "1": 21702,
+     "2": 1511248
+    },
+    "makima_vel_int": {
+     "0": 0,
+     "1": 14975,
+     "2": 1030709
+    }
+   },
+   "p999_residual_um": {
+    "hold": 1000188,
+    "linear_pkt_vel": 30002,
+    "makima_vel_int": 22825
+   },
+   "p99_residual_um": {
+    "hold": 999946,
+    "linear_pkt_vel": 21471,
+    "makima_vel_int": 14177
+   }
+  },
+  {
+   "level": "synth_original_60Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 30.713,
+     "mean_payload_bytes": 58.47
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 19.823,
+     "mean_payload_bytes": 60.43
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.002,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 18.104,
+     "mean_payload_bytes": 60.74
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.002,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 0,
+     "1": 700035,
+     "2": 5000028
+    },
+    "linear_pkt_vel": {
+     "0": 0,
+     "1": 265422,
+     "2": 8875864
+    },
+    "makima_vel_int": {
+     "0": 0,
+     "1": 237633,
+     "2": 11986670
+    }
+   },
+   "p999_residual_um": {
+    "hold": 4999823,
+    "linear_pkt_vel": 5774082,
+    "makima_vel_int": 3101259
+   },
+   "p99_residual_um": {
+    "hold": 4999245,
+    "linear_pkt_vel": 280698,
+    "makima_vel_int": 241457
+   }
+  },
+  {
+   "level": "synth_mover_heavy_60Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 81.007,
+     "mean_payload_bytes": 49.42
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 41.526,
+     "mean_payload_bytes": 56.53
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 1.33,
+     "mean_payload_bytes": 63.76
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 0,
+     "1": 140578,
+     "2": 1000366,
+     "3": 498663,
+     "4": 140412
+    },
+    "linear_pkt_vel": {
+     "0": 0,
+     "1": 21767,
+     "2": 1194084,
+     "3": 781359,
+     "4": 208254
+    },
+    "makima_vel_int": {
+     "0": 0,
+     "1": 13997,
+     "2": 943106,
+     "3": 506060,
+     "4": 130268
+    }
+   },
+   "p999_residual_um": {
+    "hold": 1000059,
+    "linear_pkt_vel": 116462,
+    "makima_vel_int": 76766
+   },
+   "p99_residual_um": {
+    "hold": 999161,
+    "linear_pkt_vel": 72544,
+    "makima_vel_int": 49510
+   }
+  },
+  {
+   "level": "synth_mover_heavy_60Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 84.949,
+     "mean_payload_bytes": 48.71
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 68.854,
+     "mean_payload_bytes": 51.61
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 67.152,
+     "mean_payload_bytes": 51.91
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.003,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 0,
+     "1": 700051,
+     "2": 5000071,
+     "3": 2272779,
+     "4": 700446
+    },
+    "linear_pkt_vel": {
+     "0": 0,
+     "1": 247365,
+     "2": 8438279,
+     "3": 4146424,
+     "4": 832438
+    },
+    "makima_vel_int": {
+     "0": 0,
+     "1": 245318,
+     "2": 11507884,
+     "3": 11280788,
+     "4": 2728849
+    }
+   },
+   "p999_residual_um": {
+    "hold": 4999603,
+    "linear_pkt_vel": 2556403,
+    "makima_vel_int": 1932893
+   },
+   "p99_residual_um": {
+    "hold": 4996072,
+    "linear_pkt_vel": 1705464,
+    "makima_vel_int": 394529
+   }
+  },
+  {
+   "level": "clip_root_20Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 41.106,
+     "mean_payload_bytes": 56.6
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 23.03,
+     "mean_payload_bytes": 59.85
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 5.42,
+     "mean_payload_bytes": 63.02
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 64429,
+     "1": 450501
+    },
+    "linear_pkt_vel": {
+     "0": 30797,
+     "1": 544683
+    },
+    "makima_vel_int": {
+     "0": 17231,
+     "1": 206588
+    }
+   },
+   "p999_residual_um": {
+    "hold": 444097,
+    "linear_pkt_vel": 490740,
+    "makima_vel_int": 185190
+   },
+   "p99_residual_um": {
+    "hold": 424544,
+    "linear_pkt_vel": 102690,
+    "makima_vel_int": 55964
+   }
+  },
+  {
+   "level": "clip_root_20Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 69.046,
+     "mean_payload_bytes": 51.57
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 86.677,
+     "mean_payload_bytes": 48.4
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 89.095,
+     "mean_payload_bytes": 47.96
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 99553,
+     "1": 2111319
+    },
+    "linear_pkt_vel": {
+     "0": 410912,
+     "1": 2962136
+    },
+    "makima_vel_int": {
+     "0": 298445,
+     "1": 3559538
+    }
+   },
+   "p999_residual_um": {
+    "hold": 2105905,
+    "linear_pkt_vel": 2709532,
+    "makima_vel_int": 1542226
+   },
+   "p99_residual_um": {
+    "hold": 2071193,
+    "linear_pkt_vel": 1284107,
+    "makima_vel_int": 743386
+   }
+  },
+  {
+   "level": "clip_root_30Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 16,
+     "tried": [
+      [
+       1,
+       0
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       16,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 19.968,
+     "mean_payload_bytes": 60.41
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 6.941,
+     "mean_payload_bytes": 62.75
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.27,
+     "mean_payload_bytes": 63.95
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 25559,
+     "1": 306602
+    },
+    "linear_pkt_vel": {
+     "0": 8746,
+     "1": 166875
+    },
+    "makima_vel_int": {
+     "0": 2582,
+     "1": 119124
+    }
+   },
+   "p999_residual_um": {
+    "hold": 302914,
+    "linear_pkt_vel": 114870,
+    "makima_vel_int": 93373
+   },
+   "p99_residual_um": {
+    "hold": 295271,
+    "linear_pkt_vel": 51654,
+    "makima_vel_int": 24251
+   }
+  },
+  {
+   "level": "clip_root_30Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 55.518,
+     "mean_payload_bytes": 54.01
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 67.488,
+     "mean_payload_bytes": 51.85
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 48.617,
+     "mean_payload_bytes": 55.25
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 101636,
+     "1": 1413094
+    },
+    "linear_pkt_vel": {
+     "0": 131707,
+     "1": 943724
+    },
+    "makima_vel_int": {
+     "0": 95634,
+     "1": 2476215
+    }
+   },
+   "p999_residual_um": {
+    "hold": 1406853,
+    "linear_pkt_vel": 903491,
+    "makima_vel_int": 2196906
+   },
+   "p99_residual_um": {
+    "hold": 1394181,
+    "linear_pkt_vel": 704562,
+    "makima_vel_int": 592310
+   }
+  },
+  {
+   "level": "clip_root_60Hz_makima_upsampled|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 16,
+     "tried": [
+      [
+       1,
+       2
+      ],
+      [
+       4,
+       5
+      ],
+      [
+       16,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 25.584,
+     "mean_payload_bytes": 59.39
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 6,
+     "regret": 0.25,
+     "keyframe_rate_pct": 0.922,
+     "mean_payload_bytes": 63.83
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.226,
+     "mean_payload_bytes": 63.96
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 15972,
+     "1": 239371
+    },
+    "linear_pkt_vel": {
+     "0": 3337,
+     "1": 93409
+    },
+    "makima_vel_int": {
+     "0": 477,
+     "1": 59216
+    }
+   },
+   "p999_residual_um": {
+    "hold": 237990,
+    "linear_pkt_vel": 75775,
+    "makima_vel_int": 47710
+   },
+   "p99_residual_um": {
+    "hold": 217324,
+    "linear_pkt_vel": 34509,
+    "makima_vel_int": 16984
+   }
+  },
+  {
+   "level": "clip_root_60Hz_makima_upsampled|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 58.537,
+     "mean_payload_bytes": 53.46
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 50.796,
+     "mean_payload_bytes": 54.86
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 30.758,
+     "mean_payload_bytes": 58.46
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 86599,
+     "1": 1223710
+    },
+    "linear_pkt_vel": {
+     "0": 69101,
+     "1": 505420
+    },
+    "makima_vel_int": {
+     "0": 19972,
+     "1": 1233049
+    }
+   },
+   "p999_residual_um": {
+    "hold": 1213638,
+    "linear_pkt_vel": 498463,
+    "makima_vel_int": 1007105
+   },
+   "p99_residual_um": {
+    "hold": 1130022,
+    "linear_pkt_vel": 461234,
+    "makima_vel_int": 309125
+   }
+  },
+  {
+   "level": "mm_elf_60Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 16,
+     "tried": [
+      [
+       1,
+       3
+      ],
+      [
+       4,
+       7
+      ],
+      [
+       16,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 55.184,
+     "mean_payload_bytes": 54.07
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 2,
+     "regret": 0.75,
+     "keyframe_rate_pct": 1.14,
+     "mean_payload_bytes": 63.79
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.347,
+     "mean_payload_bytes": 63.94
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 165772,
+     "1": 501011
+    },
+    "linear_pkt_vel": {
+     "0": 96480,
+     "1": 169116
+    },
+    "makima_vel_int": {
+     "0": 57373,
+     "1": 129231
+    }
+   },
+   "p999_residual_um": {
+    "hold": 499382,
+    "linear_pkt_vel": 94387,
+    "makima_vel_int": 61758
+   },
+   "p99_residual_um": {
+    "hold": 477189,
+    "linear_pkt_vel": 43568,
+    "makima_vel_int": 30419
+   }
+  },
+  {
+   "level": "mm_elf_60Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 65.939,
+     "mean_payload_bytes": 52.13
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 60.482,
+     "mean_payload_bytes": 53.11
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 51.636,
+     "mean_payload_bytes": 54.71
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 397264,
+     "1": 2495824
+    },
+    "linear_pkt_vel": {
+     "0": 705813,
+     "1": 1149695
+    },
+    "makima_vel_int": {
+     "0": 1448201,
+     "1": 2151813
+    }
+   },
+   "p999_residual_um": {
+    "hold": 2493839,
+    "linear_pkt_vel": 957637,
+    "makima_vel_int": 1116713
+   },
+   "p99_residual_um": {
+    "hold": 2385351,
+    "linear_pkt_vel": 704197,
+    "makima_vel_int": 431356
+   }
+  },
+  {
+   "level": "mm_elf_30Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 59.634,
+     "mean_payload_bytes": 53.27
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 15.438,
+     "mean_payload_bytes": 61.22
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 4.643,
+     "mean_payload_bytes": 63.16
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 211443,
+     "1": 999179
+    },
+    "linear_pkt_vel": {
+     "0": 180166,
+     "1": 387293
+    },
+    "makima_vel_int": {
+     "0": 125417,
+     "1": 331401
+    }
+   },
+   "p999_residual_um": {
+    "hold": 989259,
+    "linear_pkt_vel": 221219,
+    "makima_vel_int": 130973
+   },
+   "p99_residual_um": {
+    "hold": 900973,
+    "linear_pkt_vel": 127042,
+    "makima_vel_int": 70736
+   }
+  },
+  {
+   "level": "mm_elf_30Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 63.17,
+     "mean_payload_bytes": 52.63
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 63.434,
+     "mean_payload_bytes": 52.58
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 66.256,
+     "mean_payload_bytes": 52.07
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 240471,
+     "1": 4987507
+    },
+    "linear_pkt_vel": {
+     "0": 1088915,
+     "1": 4260755
+    },
+    "makima_vel_int": {
+     "0": 387792,
+     "1": 4783210
+    }
+   },
+   "p999_residual_um": {
+    "hold": 4968080,
+    "linear_pkt_vel": 2876447,
+    "makima_vel_int": 2298837
+   },
+   "p99_residual_um": {
+    "hold": 4475231,
+    "linear_pkt_vel": 2018192,
+    "makima_vel_int": 1084321
+   }
+  },
+  {
+   "level": "mm_elf_20Hz|100|6",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 4,
+     "tried": [
+      [
+       1,
+       5
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 60.993,
+     "mean_payload_bytes": 53.02
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 39.524,
+     "mean_payload_bytes": 56.89
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 19.413,
+     "mean_payload_bytes": 60.51
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 232743,
+     "1": 1483758
+    },
+    "linear_pkt_vel": {
+     "0": 183696,
+     "1": 690349
+    },
+    "makima_vel_int": {
+     "0": 120497,
+     "1": 457201
+    }
+   },
+   "p999_residual_um": {
+    "hold": 1481876,
+    "linear_pkt_vel": 385269,
+    "makima_vel_int": 222268
+   },
+   "p99_residual_um": {
+    "hold": 1373062,
+    "linear_pkt_vel": 233661,
+    "makima_vel_int": 129560
+   }
+  },
+  {
+   "level": "mm_elf_20Hz|100|30",
+   "calibrated": true,
+   "lanes": {
+    "silent_wrap": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "stale_baseline": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "float32_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "rate_scale": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    },
+    "payload_overrun": {
+     "found_of_8": 8,
+     "ticks_examined": 1,
+     "tried": [
+      [
+       1,
+       8
+      ]
+     ],
+     "regret": 0.0
+    }
+   },
+   "players": {
+    "hold+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 65.71,
+     "mean_payload_bytes": 52.17
+    },
+    "hold+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "hold+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "linear_pkt_vel+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 70.91,
+     "mean_payload_bytes": 51.24
+    },
+    "linear_pkt_vel+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "linear_pkt_vel+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    },
+    "makima_vel_int+R16": {
+     "success_of_8": 0,
+     "regret": 0.0,
+     "keyframe_rate_pct": 77.052,
+     "mean_payload_bytes": 50.13
+    },
+    "makima_vel_int+R24": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 61.0
+    },
+    "makima_vel_int+R32": {
+     "success_of_8": 8,
+     "regret": 0.0,
+     "keyframe_rate_pct": 0.0,
+     "mean_payload_bytes": 58.0
+    }
+   },
+   "fixed_layouts": {
+    "A_current": [
+     42,
+     true
+    ],
+    "A_pad": [
+     48,
+     true
+    ],
+    "B_i32_local": [
+     60,
+     true
+    ]
+   },
+   "kind_max_residual_um": {
+    "hold": {
+     "0": 257264,
+     "1": 7413074
+    },
+    "linear_pkt_vel": {
+     "0": 1186019,
+     "1": 7176830
+    },
+    "makima_vel_int": {
+     "0": 439342,
+     "1": 5936786
+    }
+   },
+   "p999_residual_um": {
+    "hold": 7227564,
+    "linear_pkt_vel": 4788520,
+    "makima_vel_int": 3650994
+   },
+   "p99_residual_um": {
+    "hold": 6692047,
+    "linear_pkt_vel": 3683079,
+    "makima_vel_int": 2028205
+   }
+  }
+ ]
+}
